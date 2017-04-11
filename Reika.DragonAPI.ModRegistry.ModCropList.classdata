@@ -1,0 +1,354 @@
+General:
+	Reika.DragonAPI.ModRegistry.ModCropList
+	Annotations: []
+	Modifiers: 100000000010001
+	Superclass: class java.lang.Enum
+	Interfaces: [interface Reika.DragonAPI.Interfaces.Registry.ModCrop]
+	Synthetic: false
+
+
+Internal Classes:
+General:
+	Reika.DragonAPI.ModRegistry.ModCropList$1
+	Annotations: []
+	Modifiers: 1000000001000
+	Superclass: class java.lang.Object
+	Interfaces: []
+	Synthetic: true
+
+
+Internal Classes:
+
+
+Constructors:
+
+
+Fields:
+	$SwitchMap$Reika$DragonAPI$ModRegistry$ModWoodList$VarType
+		Annotations: []
+		Modifiers: 1000000011000
+		Type: class [I
+	Synthetic: true
+
+
+Methods:
+
+
+
+
+Constructors:
+		Annotations: []
+		Modifiers: 10
+		Signature: [class java.lang.String, int, class Reika.DragonAPI.ModList, int, class java.lang.String, class java.lang.String, int, int, int, int, class Reika.DragonAPI.ModRegistry.ModWoodList$VarType]
+		Exceptions: []
+	Synthetic: false
+		Annotations: []
+		Modifiers: 10
+		Signature: [class java.lang.String, int, class Reika.DragonAPI.ModList, int, class java.lang.String, int, int, class Reika.DragonAPI.ModRegistry.ModWoodList$VarType]
+		Exceptions: []
+	Synthetic: false
+		Annotations: []
+		Modifiers: 10
+		Signature: [class java.lang.String, int, class Reika.DragonAPI.ModList, int, class java.lang.String, int, class Reika.DragonAPI.ModRegistry.ModWoodList$VarType]
+		Exceptions: []
+	Synthetic: false
+		Annotations: []
+		Modifiers: 10
+		Signature: [class java.lang.String, int, class Reika.DragonAPI.ModList, int, class java.lang.String, class java.lang.String, int, int, int, int, class Reika.DragonAPI.ModRegistry.ModWoodList$VarType, class Reika.DragonAPI.ModRegistry.ModWoodList$VarType]
+		Exceptions: []
+	Synthetic: false
+		Annotations: []
+		Modifiers: 10
+		Signature: [class java.lang.String, int, interface Reika.DragonAPI.Interfaces.Registry.ModEntry, int, interface Reika.DragonAPI.Interfaces.Registry.CropHandler]
+		Exceptions: []
+	Synthetic: false
+
+
+Fields:
+	BARLEY
+		Annotations: []
+		Modifiers: 100000000011001
+		Type: class Reika.DragonAPI.ModRegistry.ModCropList
+	Synthetic: false
+	COTTON
+		Annotations: []
+		Modifiers: 100000000011001
+		Type: class Reika.DragonAPI.ModRegistry.ModCropList
+	Synthetic: false
+	FLAX
+		Annotations: []
+		Modifiers: 100000000011001
+		Type: class Reika.DragonAPI.ModRegistry.ModCropList
+	Synthetic: false
+	MAGIC
+		Annotations: []
+		Modifiers: 100000000011001
+		Type: class Reika.DragonAPI.ModRegistry.ModCropList
+	Synthetic: false
+	MANA
+		Annotations: []
+		Modifiers: 100000000011001
+		Type: class Reika.DragonAPI.ModRegistry.ModCropList
+	Synthetic: false
+	BERRY
+		Annotations: []
+		Modifiers: 100000000011001
+		Type: class Reika.DragonAPI.ModRegistry.ModCropList
+	Synthetic: false
+	OREBERRY
+		Annotations: []
+		Modifiers: 100000000011001
+		Type: class Reika.DragonAPI.ModRegistry.ModCropList
+	Synthetic: false
+	PAM
+		Annotations: []
+		Modifiers: 100000000011001
+		Type: class Reika.DragonAPI.ModRegistry.ModCropList
+	Synthetic: false
+	ALGAE
+		Annotations: []
+		Modifiers: 100000000011001
+		Type: class Reika.DragonAPI.ModRegistry.ModCropList
+	Synthetic: false
+	ENDER
+		Annotations: []
+		Modifiers: 100000000011001
+		Type: class Reika.DragonAPI.ModRegistry.ModCropList
+	Synthetic: false
+	PNEUMATIC
+		Annotations: []
+		Modifiers: 100000000011001
+		Type: class Reika.DragonAPI.ModRegistry.ModCropList
+	Synthetic: false
+	FLUXED
+		Annotations: []
+		Modifiers: 100000000011001
+		Type: class Reika.DragonAPI.ModRegistry.ModCropList
+	Synthetic: false
+	AGRICRAFT
+		Annotations: []
+		Modifiers: 100000000011001
+		Type: class Reika.DragonAPI.ModRegistry.ModCropList
+	Synthetic: false
+	ASPECT
+		Annotations: []
+		Modifiers: 100000000011001
+		Type: class Reika.DragonAPI.ModRegistry.ModCropList
+	Synthetic: false
+	mod
+		Annotations: []
+		Modifiers: 10010
+		Type: interface Reika.DragonAPI.Interfaces.Registry.ModEntry
+	Synthetic: false
+	blockID
+		Annotations: []
+		Modifiers: 10001
+		Type: class net.minecraft.block.Block
+	Synthetic: false
+	seedID
+		Annotations: []
+		Modifiers: 10001
+		Type: class net.minecraft.item.Item
+	Synthetic: false
+	seedMeta
+		Annotations: []
+		Modifiers: 10001
+		Type: int
+	Synthetic: false
+	ripeMeta
+		Annotations: []
+		Modifiers: 10001
+		Type: int
+	Synthetic: false
+	harvestedMeta
+		Annotations: []
+		Modifiers: 10010
+		Type: int
+	Synthetic: false
+	minmeta
+		Annotations: []
+		Modifiers: 10
+		Type: int
+	Synthetic: false
+	handler
+		Annotations: []
+		Modifiers: 10010
+		Type: interface Reika.DragonAPI.Interfaces.Registry.CropHandler
+	Synthetic: false
+	blockClass
+		Annotations: []
+		Modifiers: 10
+		Type: class java.lang.String
+	Synthetic: false
+	itemClass
+		Annotations: []
+		Modifiers: 10
+		Type: class java.lang.String
+	Synthetic: false
+	dropsSelf
+		Annotations: []
+		Modifiers: 10
+		Type: boolean
+	Synthetic: false
+	cropColor
+		Annotations: []
+		Modifiers: 10001
+		Type: int
+	Synthetic: false
+	exists
+		Annotations: []
+		Modifiers: 10
+		Type: boolean
+	Synthetic: false
+	cropList
+		Annotations: []
+		Modifiers: 11001
+		Type: class [LReika.DragonAPI.ModRegistry.ModCropList;
+	Synthetic: false
+	cropMappings
+		Annotations: []
+		Modifiers: 11010
+		Type: class Reika.DragonAPI.Instantiable.Data.Maps.BlockMap
+	Synthetic: false
+	$VALUES
+		Annotations: []
+		Modifiers: 1000000011010
+		Type: class [LReika.DragonAPI.ModRegistry.ModCropList;
+	Synthetic: true
+
+
+Methods:
+	toString		Annotations: []
+		Modifiers: 1
+		Signature: []
+		Exceptions: []
+		Return: class java.lang.String
+	Synthetic: false
+	values		Annotations: []
+		Modifiers: 1001
+		Signature: []
+		Exceptions: []
+		Return: class [LReika.DragonAPI.ModRegistry.ModCropList;
+	Synthetic: false
+	valueOf		Annotations: []
+		Modifiers: 1001
+		Signature: [class java.lang.String]
+		Exceptions: []
+		Return: class Reika.DragonAPI.ModRegistry.ModCropList
+	Synthetic: false
+	getDrops		Annotations: []
+		Modifiers: 1
+		Signature: [class net.minecraft.world.World, int, int, int, int]
+		Exceptions: []
+		Return: class java.util.ArrayList
+	Synthetic: false
+	isCrop		Annotations: []
+		Modifiers: 1
+		Signature: [class net.minecraft.block.Block, int]
+		Exceptions: []
+		Return: boolean
+	Synthetic: false
+	getGrowthState		Annotations: []
+		Modifiers: 1
+		Signature: [class net.minecraft.world.World, int, int, int]
+		Exceptions: []
+		Return: int
+	Synthetic: false
+	isSeedItem		Annotations: []
+		Modifiers: 1
+		Signature: [class net.minecraft.item.ItemStack]
+		Exceptions: []
+		Return: boolean
+	Synthetic: false
+	makeRipe		Annotations: []
+		Modifiers: 1
+		Signature: [class net.minecraft.world.World, int, int, int]
+		Exceptions: []
+		Return: void
+	Synthetic: false
+	neverDropsSecondSeed		Annotations: []
+		Modifiers: 1
+		Signature: []
+		Exceptions: []
+		Return: boolean
+	Synthetic: false
+	existsInGame		Annotations: []
+		Modifiers: 1
+		Signature: []
+		Exceptions: []
+		Return: boolean
+	Synthetic: false
+	getParentMod		Annotations: []
+		Modifiers: 1
+		Signature: []
+		Exceptions: []
+		Return: interface Reika.DragonAPI.Interfaces.Registry.ModEntry
+	Synthetic: false
+	isHandlered		Annotations: []
+		Modifiers: 1
+		Signature: []
+		Exceptions: []
+		Return: boolean
+	Synthetic: false
+	isTileEntityUsedForGrowth		Annotations: []
+		Modifiers: 1
+		Signature: []
+		Exceptions: []
+		Return: boolean
+	Synthetic: false
+	setHarvested		Annotations: []
+		Modifiers: 1
+		Signature: [class net.minecraft.world.World, int, int, int]
+		Exceptions: []
+		Return: void
+	Synthetic: false
+	runTEHarvestCode		Annotations: []
+		Modifiers: 10
+		Signature: [class net.minecraft.world.World, int, int, int]
+		Exceptions: []
+		Return: void
+	Synthetic: false
+	getHarvestedMetadata		Annotations: []
+		Modifiers: 10
+		Signature: [class net.minecraft.world.World, int, int, int]
+		Exceptions: []
+		Return: int
+	Synthetic: false
+	getModCrop		Annotations: []
+		Modifiers: 1001
+		Signature: [class net.minecraft.block.Block, int]
+		Exceptions: []
+		Return: class Reika.DragonAPI.ModRegistry.ModCropList
+	Synthetic: false
+	isModCrop		Annotations: []
+		Modifiers: 1001
+		Signature: [class net.minecraft.block.Block, int]
+		Exceptions: []
+		Return: boolean
+	Synthetic: false
+	destroyOnHarvest		Annotations: []
+		Modifiers: 1
+		Signature: []
+		Exceptions: []
+		Return: boolean
+	Synthetic: false
+	isBerryBush		Annotations: []
+		Modifiers: 1
+		Signature: []
+		Exceptions: []
+		Return: boolean
+	Synthetic: false
+	isRipe		Annotations: []
+		Modifiers: 1
+		Signature: [class net.minecraft.world.World, int, int, int]
+		Exceptions: []
+		Return: boolean
+	Synthetic: false
+	addCustomCropType		Annotations: []
+		Modifiers: 1001
+		Signature: [interface Reika.DragonAPI.Interfaces.CustomCropHandler]
+		Exceptions: []
+		Return: void
+	Synthetic: false
+
+
