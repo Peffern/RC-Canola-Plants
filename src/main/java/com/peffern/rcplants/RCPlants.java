@@ -1,13 +1,9 @@
 package com.peffern.rcplants;
 
 
-import javax.swing.JOptionPane;
-
-import com.bioxx.tfc.Core.TFCTabs;
-import com.bioxx.tfc.api.TFCItems;
+import com.bioxx.tfc.TerraFirmaCraft;
 import com.peffern.crops.BaseCrop;
 import com.peffern.crops.CropsRegistry;
-import com.peffern.crops.ICrop;
 import com.peffern.crops.RenderCustomCrop;
 
 import Reika.RotaryCraft.Auxiliary.ItemStacks;
@@ -16,12 +12,8 @@ import Reika.RotaryCraft.TileEntities.Processing.TileEntityGrinder;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
-import cpw.mods.fml.common.registry.GameData;
-import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.block.Block;
-import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.RenderBlocks;
-import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
@@ -46,7 +38,7 @@ public class RCPlants
 	public static final String MODNAME = "RC Plants";
 	
 	/** Mod Version */
-	public static final String VERSION = "1.0";
+	public static final String VERSION = "1.1";
 	
 	/**
 	 * Do all the main mod setup
@@ -66,7 +58,11 @@ public class RCPlants
 			@Override
 			public ItemStack getOutput1()
 			{
-				return new ItemStack(canolaSeeds, 7);
+				//add 1 to 13 additional canola seeds to the drop 
+				int stack = 1;
+				if(TerraFirmaCraft.proxy.getCurrentWorld() != null)
+					stack += TerraFirmaCraft.proxy.getCurrentWorld().rand.nextInt(13);
+				return new ItemStack(canolaSeeds, stack);
 			}
 			
 			@Override
