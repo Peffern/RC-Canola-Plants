@@ -40,6 +40,8 @@ public class RCPlants
 	/** Mod Version */
 	public static final String VERSION = "1.1";
 	
+	static boolean initComplete = false;
+	
 	/**
 	 * Do all the main mod setup
 	 */
@@ -60,7 +62,7 @@ public class RCPlants
 			{
 				//add 1 to 13 additional canola seeds to the drop 
 				int stack = 1;
-				if(TerraFirmaCraft.proxy.getCurrentWorld() != null)
+				if(RCPlants.isInitComplete())
 					stack += TerraFirmaCraft.proxy.getCurrentWorld().rand.nextInt(13);
 				return new ItemStack(canolaSeeds, stack);
 			}
@@ -85,5 +87,12 @@ public class RCPlants
 		
 		RecipesGrinder.getRecipes().addCustomRecipe(in, out);
 		
+		initComplete = true;
+		
+	}
+	
+	public static boolean isInitComplete()
+	{
+		return initComplete;
 	}
 }
